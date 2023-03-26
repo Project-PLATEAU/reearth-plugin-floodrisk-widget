@@ -1,0 +1,15 @@
+{
+    "show": true,
+    "color": {
+        "conditions": [
+            [
+                "${shi2} === 1",
+                "color('#c2ff33', 1)"
+            ],
+            [
+                "${shi2} === 2",
+                "color('#9900CC', 1)"
+            ]
+        ]
+    }
+}

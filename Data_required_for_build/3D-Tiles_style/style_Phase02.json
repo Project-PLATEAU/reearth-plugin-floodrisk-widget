@@ -1,0 +1,15 @@
+{
+    "show": true,
+    "color": {
+        "conditions": [
+            [
+                "${ken} === 1",
+                "color('#c2ff33', 1)"
+            ],
+            [
+                "${ken} === 2",
+                "color('#9900CC', 1)"
+            ]
+        ]
+    }
+}
