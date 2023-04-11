@@ -163,7 +163,7 @@
    3.支川の整備１：03Po803DBAR.czml<br>
    4.支川の整備２：04Po803DBAR.czml<br>
   - 人的リスク_メッシュ_80%：人的リスク（避難率80%）を2Dメッシュで示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po80MESH.czml<br>
    2.河川整備：02Po80MESH.czml<br>
