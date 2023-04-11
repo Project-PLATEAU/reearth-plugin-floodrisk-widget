@@ -128,7 +128,7 @@
    3.支川の整備１：03EcMESH.czml<br>
    4.支川の整備２：04EcMESH.czml<br>
   - 人的リスク_3D_0%：人的リスク（避難率0%）を3D棒で示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)/）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po3DBAR.czml<br>
    2.河川整備：02Po3DBAR.czml<br>
