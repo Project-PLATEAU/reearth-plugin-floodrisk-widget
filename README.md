@@ -76,7 +76,7 @@
 
 2. プラグインページから「個人インストール済み」タブを開きます。
    ![](images/install2.png)
-3. プラグインをzipファイルからインストールします。「PCからZipファイルをアップロード」を選択し、[ダウンロード](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/releases/tag/v1.0)したzipファイルを選択します。
+3. プラグインをzipファイルからインストールします。「PCからZipファイルをアップロード」を選択し、[ダウンロード](https://github.com/Project-PLATEAU/UC22-034-reearth-plugin-floodrisk-widget/releases/tag/v1.0)したzipファイルを選択します。
 4. 編集画面に戻り、ページ左側に表示されているアウトラインの「ウィジェット」の＋ボタンをクリックし、「河川整備効果の見える化ウィジェット」を追加します。
    ![](images/widget_menu.png)
 
@@ -100,77 +100,77 @@
 
   ![](images/setting_stage.png)
   - 浸水czml：浸水のczmlを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_flood/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_flood)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_flood/](/Data_required_for_build/CZML_flood)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：Phase01.czml<br>
    2.河川整備：Phase02.czml<br>
    3.支川の整備１：Phase03.czml<br>
    4.支川の整備２：Phase04.czml<br>
   - 建物スタイル：3D都市モデルのスタイルファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/3D-Tiles_style/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/3D-Tiles_style)）<br>
+   （参照フォルダ：[/Data_required_for_build/3D-Tiles_style/](/Data_required_for_build/3D-Tiles_style)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：style_Phase01.json<br>
    2.河川整備：style_Phase02.json<br>
    3.支川の整備１：style_Phase03.json<br>
    4.支川の整備２：style_Phase04.json<br>
   - 経済リスク_3D：経済リスクを3D棒で示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Ec3DBAR.czml<br>
    2.河川整備：02Ec3DBAR.czml<br>
    3.支川の整備１：03Ec3DBAR.czml<br>
    4.支川の整備２：04Ec3DBAR.czml<br>
   - 経済リスク_メッシュ：経済リスクを2Dメッシュで示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01EcMESH.czml<br>
    2.河川整備：02EcMESH.czml<br>
    3.支川の整備１：03EcMESH.czml<br>
    4.支川の整備２：04EcMESH.czml<br>
   - 人的リスク_3D_0%：人的リスク（避難率0%）を3D棒で示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)/）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)/）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po3DBAR.czml<br>
    2.河川整備：02Po3DBAR.czml<br>
    3.支川の整備１：03Po3DBAR.czml<br>
    4.支川の整備２：04Po3DBAR.czml<br>
   - 人的リスク_メッシュ_0%：人的リスク（避難率0%）を2Dメッシュで示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01PoMESH.czml<br>
    2.河川整備：01PoMESH.czml<br>
    3.支川の整備１：01PoMESH.czml<br>
    4.支川の整備２：01PoMESH.czml<br>
   - 人的リスク_3D_40%：人的リスク（避難率40%）を3D棒で示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po403DBAR.czml　<br>
    2.河川整備：02Po403DBAR.czml<br>
    3.支川の整備１：03Po403DBAR.czml<br>
    4.支川の整備２：04Po403DBAR.czml<br>
   - 人的リスク_メッシュ_40%：人的リスク（避難率40%）を2Dメッシュで示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po40MESH.czml<br>
    2.河川整備：02Po40MESH.czml<br>
    3.支川の整備１：03Po40MESH.czml<br>
    4.支川の整備２：04Po40MESH.czml<br>
   - 人的リスク_3D_80%：人的リスク（避難率80%）を3D棒で示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)）<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)）<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po803DBAR.czml<br>
    2.河川整備：02Po803DBAR.czml<br>
    3.支川の整備１：03Po803DBAR.czml<br>
    4.支川の整備２：04Po803DBAR.czml<br>
   - 人的リスク_メッシュ_80%：人的リスク（避難率80%）を2Dメッシュで示すczmlファイルを指定します。<br>
-   （参照フォルダ：[/Data_required_for_build/CZML_risk/](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build/CZML_risk)<br>
+   （参照フォルダ：[/Data_required_for_build/CZML_risk/](/Data_required_for_build/CZML_risk)<br>
    各項目に設定するファイル形式とサンプルデータは以下の通りです。<br>
    1.現況再現計算結果：01Po80MESH.czml<br>
    2.河川整備：02Po80MESH.czml<br>
    3.支川の整備１：03Po80MESH.czml<br>
    4.支川の整備２：04Po80MESH.czml<br>
 
-- 各種データの設定については、データを[ダウンロード](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build)して、Re:Earthのアセットにデータ登録をします。
+- 各種データの設定については、データを[ダウンロード](/Data_required_for_build)して、Re:Earthのアセットにデータ登録をします。
 - Re:Earthのアセット登録とデータの設定の流れは以下の通りです。
   - 例として、整備段階1の人的被害リスク（避難率0%)の設定を行います。
   - 設定したいファイルの画像のアイコンをクリックします。
@@ -182,7 +182,7 @@
   これでRe:Earthのアセットへのデータの登録と、データの指定が行われます。
   ![](images/asset3.png)
   
-- 各種データ仕様については、[サンプルデータ](https://github.com/FCCtakasawa/PLATEAU-UC22-034-reearth-plugin-rivermaintenancewidget/tree/main/Data_required_for_build)および[技術検証レポート](https://www.mlit.go.jp/plateau/libraries/technical-reports/)を参照してください。
+- 各種データ仕様については、[サンプルデータ](/Data_required_for_build)および[技術検証レポート](https://www.mlit.go.jp/plateau/file/libraries/doc/plateau_tech_doc_0011_ver01.pdf)を参照してください。
 
 - 表示データ
 
