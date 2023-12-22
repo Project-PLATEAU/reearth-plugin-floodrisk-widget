@@ -76,7 +76,7 @@
 
 2. プラグインページから「個人インストール済み」タブを開きます。
    ![](images/install2.png)
-3. プラグインをzipファイルからインストールします。「PCからZipファイルをアップロード」を選択し、[ダウンロード](https://github.com/Project-PLATEAU/UC22-034-reearth-plugin-floodrisk-widget/releases/tag/v1.0)したzipファイルを選択します。
+3. プラグインをzipファイルからインストールします。「PCからZipファイルをアップロード」を選択し、[ダウンロード](https://github.com/Project-PLATEAU/reearth-plugin-floodrisk-widget/releases/tag/v1.0)したzipファイルを選択します。
 4. 編集画面に戻り、ページ左側に表示されているアウトラインの「ウィジェット」の＋ボタンをクリックし、「河川整備効果の見える化ウィジェット」を追加します。
    ![](images/widget_menu.png)
 
